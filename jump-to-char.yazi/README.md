@@ -23,6 +23,16 @@ desc = "Jump to char"
 
 Note that, the keybindings above are just examples, please tune them up as needed to ensure they don't conflict with your other commands/plugins.
 
+## Configuration
+
+Add this to your `~/.config/yazi/init.lua` to configure the plugin:
+
+```lua
+require("jump-to-char"):setup({
+	case_sensitive = true, -- Default is false (case-insensitive)
+})
+```
+
 ## License
 
 This plugin is MIT-licensed. For more information check the [LICENSE](LICENSE) file.
